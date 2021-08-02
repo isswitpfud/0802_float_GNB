@@ -1,0 +1,94 @@
+@charset "UTF-8";
+@import url(../style/reset.css);
+
+div#wrap {
+  width: 100%;
+}
+
+div#headerArea {
+  border: 2px solid #eee;
+  background-color: #eee;
+  width: 1200px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+div#headerLogo {
+  width: 200px;
+  height: 100px;
+  line-height: 122px;
+
+  float: left;
+}
+div#headerLogo a img {
+  width: 200px;
+  height: 40px;
+}
+
+nav#gnb {
+  width: 1000px;
+  margin-left: 170px;
+}
+
+#mainMenu {
+  width: 600px;
+  margin-top: 58px;
+
+  float: right;
+}
+
+#mainMenu .mainLi {
+  width: 150px;
+  height: 42px;
+  line-height: 42px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  color: #444;
+  border: 1px solid #aaa;
+
+  float: right;
+}
+#mainMenu .mainLi:not(:first-child) {
+  border-right: none;
+}
+
+#mainMenu .mainLi:hover {
+  background-color: rgb(113, 178, 238);
+}
+#mainMenu .mainLi:hover > a {
+  position: relative;
+  color: #fff;
+}
+
+ul.subUl {
+  display: none;
+}
+
+li.subLi {
+  background-color: rgb(113, 178, 238);
+}
+
+li.subLi a {
+  color: #fff;
+}
+
+li.subLi:hover {
+  background-color: #fff;
+}
+
+li.subLi:hover > a {
+  color: #444;
+}
+
+div#gnbBg {
+  width: 1200px;
+  height: 126px;
+  margin: 0 auto;
+  background-color: rgb(113, 178, 238);
+
+  display: none;
+
+  clear: both;
+}
