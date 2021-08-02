@@ -48,9 +48,9 @@ nav#gnb {
   color: #444;
   border: 1px solid #aaa;
 
-  float: right;
+  float: left;
 }
-#mainMenu .mainLi:not(:first-child) {
+#mainMenu .mainLi:not(:last-child) {
   border-right: none;
 }
 
